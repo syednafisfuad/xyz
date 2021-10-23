@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <script>
+  function upper()
+  {
+	var uc = document.getElementById('input1').value;
+	document.getElementById('input1').value = uc.toUpperCase();
+  }
+
+  function lower()
+  {
+	var lc = document.getElementById('input1').value;
+	document.getElementById('input1').value = lc.toLowerCase();
+  }
+  </script>
+</head>
+<body>
+  <form action="demo_form.asp" id="demo_form">
+  Phrase:
+  <input type="text" id="input1" name="changeCase" placeholder="Put Phrase Here">
+  <br>
+  <input type="button" id="btn1" value="upperCase" onclick="upper();">
+  <input type="button" id="btn2" value="lowerCase" onclick="lower();">
+</form>
+</body>
+</html>

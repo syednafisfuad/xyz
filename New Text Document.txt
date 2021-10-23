@@ -1,0 +1,14 @@
+#table{
+    position:absolute;
+    right:17%;
+    top:80%;
+}
+
+
+#button2{
+  
+    position:absolute;
+    top:95%;
+    right:63%;
+
+}
